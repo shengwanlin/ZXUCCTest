@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ZXUCCTest
 
 [![CI Status](https://img.shields.io/travis/shengwanlin/ZXUCCTest.svg?style=flat)](https://travis-ci.org/shengwanlin/ZXUCCTest)
@@ -30,4 +29,3 @@ shengwanlin, 66871164@qq.com
 ZXUCCTest is available under the MIT license. See the LICENSE file for more info.
 =======
 # ZXUCCTest
->>>>>>> 0491b912a95db61fadc3248c26266dac164901a0
