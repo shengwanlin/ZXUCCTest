@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZXUCCTest'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ZXUUC Demo'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shengwanlin/ZXUCCTest'
+  s.homepage         = 'https://github.com/shengwanlin/ZXSpecs.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shengwanlin' => '66871164@qq.com' }
@@ -38,5 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = "UIKit", "Foundation"
+
+  # 依赖
+  s.dependency 'AFNetworking', '~> 2.3'
 end

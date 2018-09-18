@@ -1,15 +1,42 @@
 PODS:
-  - ZXUCCTest (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ZXUCCTest (0.1.1):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - ZXUCCTest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ZXUCCTest:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZXUCCTest: 780cc64f07a07407d8290c50fdef4ac50d763e6d
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  ZXUCCTest: e430c2cca68d4e78425836ba55afc97f4cf736f6
 
 PODFILE CHECKSUM: 10516f2fee391989fa2af2c861a09f0185052f61
 
