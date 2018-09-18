@@ -1,0 +1,6 @@
+framework module Pods_ZXUCCTest_Tests {
+  umbrella header "Pods-ZXUCCTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
